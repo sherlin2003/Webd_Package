@@ -1,0 +1,112 @@
+<html>
+<head>
+<style>
+body {
+  background-color: #1A132F;
+  font-family: "Roboto", sans-serif;
+}
+
+.signup-box {
+  width: 360px;
+  height: 620px;
+  background-color: white;
+  border-radius: 3px;
+  position:absolute;
+  left:580px;
+  top:50px;
+}
+
+
+h1 {
+  text-align: center;
+  padding-top: 15px;
+}
+
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+form input {
+  width: 100%;
+  padding: 7px;
+  border: none;
+  border: 1px solid gray;
+  border-radius: 6px;
+  outline: none;
+}
+
+p {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 15px;
+}
+.Login {
+  text-align: center;
+  color: white;
+  font-size: 15px;
+  margin-top: -10px;
+}
+.Login a {
+  color:#E8C3CA;
+}
+button:hover{
+    background: rgba(214, 86, 64, 1);
+}
+
+.submit{
+    color: white;
+    text-decoration: none;
+}
+button{
+    border: none;
+    outline: none;
+    padding: 8px;
+    width: 300px;
+    color: #ffff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    background: tomato;
+}
+</style>
+</head>
+<body>
+    <div class="signup-box">
+      <h1>Sign Up</h1>
+      <h4>Sign up to order the latest collection from us </h4>
+      <form>
+        <label>First Name</label>
+        <input type="text"  required placeholder="Enter your First name">
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter your Last name" >
+        <label>Email</label>
+        <input type="email" size="60" maxLength="64" required  placeholder="Eg: Kavithalaya_2013@gmail.com" pattern=".+@gmail.com" title="Please provide valid mail address"> 
+        <label>Password</label>
+        <input type="password" minlength="9" required placeholder="Enter Your Password">
+        <label>Confirm Password</label>
+        <input type="password" minlength="9" required placeholder="Enter Your Password">
+        <button> <a href="try3.html" class="submit"> Submit </a> </button>
+      </form>
+      <p>
+        By clicking the Sign Up button,you agree to our <br />
+        <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+      </p>
+    </div>
+    <p class="Login">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+  </body>
+</html>
+
