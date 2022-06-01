@@ -1,95 +1,100 @@
-* {
-    font-size: 20px;
-    font-family: Cambria;
-
+*{
+	font-size:20px;
+	font-family:Cambria;
+	
+}
+.top
+{
+	margin:1% 0% 0%;
+}
+.top1
+{
+	background-color:#FFEEEE;
+	margin:1% 0% 0%;
+	padding:10px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+	display:flex;
+}
+.login
+{
+	margin:5px;
+	position:absolute;
+	right:20px;
+	
+}
+.horizontal
+{
+	margin:5px;
+	border-right : 2px solid black;
+	position:relative;
+	left:260px;	
+	top:9px;
+}
+.signup
+{
+	margin:5px;
+	position:absolute;
+	right:130px;
 }
 
-.top {
-    margin: 1% 0% 0%;
-}
-
-.top1 {
-    background-color: #FFEEEE;
-    margin: 1% 0% 0%;
-    padding: 10px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
-    display: flex;
-}
-
-.login {
-    margin: 5px;
-    position: absolute;
-    right: 20px;
-
-}
-
-.horizontal {
-    margin: 5px;
-    border-right: 2px solid black;
-    position: relative;
-    left: 260px;
-    top: 9px;
-}
-
-.signup {
-    margin: 5px;
-    position: absolute;
-    right: 130px;
-}
-
-hr {
+hr
+{
     border-top: 2px solid black;
 }
 
-.logo {
-    width: 150px;
-    height: 135px;
-    mix-blend-mode: multiply;
+.logo
+{ 
+	width: 150px;
+	height:135px;
+	mix-blend-mode: multiply;
+}	
+
+a
+{
+	text-decoration:none;
+	color:black;
+}	
+.image
+{
+	padding-top:1%;
+	padding-left:1%;
+	padding-right:1%;
+	padding-bottom:1%;
+	width:100%;
+	height:69%;
+}
+.slideimage
+{
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); 
+}
+.mySlides 
+{
+	display:none;
+}
+.content1
+{
+	background-color:#1A132F;
+}	
+.grp1
+{
+	position:relative;
+	left:400px;
+}
+	
+.grp2
+{
+	position:relative;
+	bottom:460px;
+	left:400px;
 }
 
-a {
-    text-decoration: none;
-    color: black;
+.items
+{
+	padding:1.5rem;
+	text-decoration:none;
 }
-
-.image {
-    padding-top: 1%;
-    padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom: 1%;
-    width: 100%;
-    height: 69%;
-}
-
-.slideimage {
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
-}
-
-.mySlides {
-    display: none;
-}
-
-.content1 {
-    background-color: #1A132F;
-}
-
-.grp1 {
-    position: relative;
-    left: 400px;
-}
-
-.grp2 {
-    position: relative;
-    bottom: 460px;
-    left: 400px;
-}
-
-.items {
-    padding: 1.5rem;
-    text-decoration: none;
-}
-
-li {
+li
+{
     display: list-item;
     text-align: -webkit-match-parent;
 }
@@ -105,100 +110,101 @@ li {
     margin: 0;
 }
 
-.navbar {
-    margin-left: 330px;
+.navbar
+{
+	margin-left:330px;
 }
-
-.newarrivals {
+.newarrivals
+{
     background-color: #FFEEEE;
-    padding-top: 20px;
-    padding-bottom: 5px;
-    display: flex;
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+	padding-top:20px;
+	padding-bottom:5px;
+	display:flex;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); 
 }
 
-.container-1 {
-    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+.container-1
+{
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); 
+}
+.container1
+{
+	background-color: #FFEEEE;
+	padding-top:20px;
+	padding-bottom:20px;
+	display:flex;
+}
+.outerbox1
+{
+	background-color:#1A132F;
+	width:280px;
+	height:420px;
+	margin-left:20px;
+	margin-bottom:20px;
+	margin-top:20px;
+	box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.25);
+	border-radius: 15px;	
 }
 
-.container1 {
-    background-color: #FFEEEE;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    display: flex;
+.images
+{
+	width:84%;
+	height:70%;
+	margin-left:15px;
+	margin-top: 20px;
+	border-radius: 5px;
 }
 
-.outerbox1 {
-    background-color: #1A132F;
-    width: 280px;
-    height: 420px;
-    margin-left: 20px;
-    margin-bottom: 20px;
-    margin-top: 20px;
-    box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.25);
-    border-radius: 15px;
-}
-
-.images {
-    width: 84%;
-    height: 70%;
-    margin-left: 15px;
-    margin-top: 20px;
-    border-radius: 5px;
-}
-
-
-.enlarge {
+.enlarge{
     width: 300px;
     height: 500px;
     overflow: hidden;
     margin: 0 auto;
-}
-
-.enlarge img {
+  }
+       
+  .enlarge img{
     width: 90%;
     transition: 0.5s all ease-in-out;
+  }
+       
+  .enlarge:hover img{
+  transform: scale(1.5);
+  }
+
+.addtocart
+{
+	background-color:#FFEEEE;
+	width:250px;
+	height:30px;
+	border-radius:6px;
+	position:relative;
+	left:15px;
+	bottom:15px;
+	text-align:center;
+	
+}
+p
+{
+	text-align:center;
+	color:white;
+	padding-top:5px;
 }
 
-.enlarge:hover img {
-    transform: scale(1.5);
+.heading
+{
+	color:black;
+	font-size:30px;
 }
-
-.addtocart {
-    background-color: #FFEEEE;
-    width: 250px;
-    height: 30px;
-    border-radius: 6px;
-    position: relative;
-    left: 15px;
-    bottom: 15px;
-    text-align: center;
-
-}
-
-p {
-    text-align: center;
-    color: white;
-    padding-top: 5px;
-}
-
-.heading {
-    color: black;
-    font-size: 30px;
-}
-
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
-body {
+body{
     background: #fcfcfc;
     font-family: sans-serif;
 }
-
-footer {
+footer{
     position: absolute;
     bottom: 0;
     left: 0;
@@ -210,43 +216,37 @@ footer {
     padding-top: 40px;
     color: #fff;
 }
-
-.footer-content {
+.footer-content{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
-
-.footer-content h3 {
+.footer-content h3{
     font-size: 2.1rem;
     font-weight: 500;
     text-transform: capitalize;
     line-height: 3rem;
 }
-
-.footer-content p {
+.footer-content p{
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
     color: #cacdd2;
 }
-
-.socials {
+.socials{
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: center;
     margin: 1rem 0 3rem 0;
 }
-
-.socials li {
+.socials li{
     margin: 0 10px;
 }
-
-.socials a {
+.socials a{
     text-decoration: none;
     color: #fff;
     border: 1.1px solid white;
@@ -255,8 +255,7 @@ footer {
     border-radius: 50%;
 
 }
-
-.socials a i {
+.socials a i{
     font-size: 1.1rem;
     width: 20px;
 
@@ -264,65 +263,107 @@ footer {
     transition: color .4s ease;
 
 }
-
-.socials a:hover i {
+.socials a:hover i{
     color: aqua;
 }
 
-.footer-bottom {
+.footer-bottom{
     background: #000;
     width: 100vw;
     padding: 20px;
-    padding-bottom: 40px;
+padding-bottom: 40px;
     text-align: center;
 }
-
-.footer-bottom p {
-    float: left;
+.footer-bottom p{
+float: left;
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
 }
-
-.footer-bottom p a {
-    color: #44bae8;
-    font-size: 16px;
-    text-decoration: none;
+.footer-bottom p a{
+  color:#44bae8;
+  font-size: 16px;
+  text-decoration: none;
 }
-
-.footer-bottom span {
+.footer-bottom span{
     text-transform: uppercase;
     opacity: .4;
     font-weight: 200;
 }
-
-.footer-menu {
-    float: right;
+.footer-menu{
+  float: right;
 
 }
-
-.footer-menu ul {
-    display: flex;
+.footer-menu ul{
+  display: flex;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+  color: #cfd2d6;
+  text-decoration: none;
+}
+.footer-menu ul li a:hover{
+  color: #27bcda;
 }
 
-.footer-menu ul li {
-    padding-right: 10px;
-    display: block;
+@media (max-width:500px)
+{
+.footer-menu ul{
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
 }
 
-.footer-menu ul li a {
-    color: #cfd2d6;
-    text-decoration: none;
-}
+.flip-box {
+    background-color: transparent;
+    width: 300px;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: dodgerblue;
+    color: white;
+    transform: rotateY(180deg);
+  }
 
-.footer-menu ul li a:hover {
-    color: #27bcda;
-}
-
-@media (max-width:500px) {
-    .footer-menu ul {
-        display: flex;
-        margin-top: 10px;
-        margin-bottom: 20px;
-    }
+  input[type=file] { 
+    width: 5px; 
+    visibility: hidden;
 }
