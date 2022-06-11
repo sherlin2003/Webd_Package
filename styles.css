@@ -230,8 +230,8 @@ li {
 .inspired1 {
   float: left;
   color: #000;
-  font-size: 44px;
-  font-family: 'sans-serif';
+  font-size: 40px;
+  font-family: 'technical';
 }
 .newarrivals {
   background-color: #FFEEEE;
@@ -353,8 +353,8 @@ footer {
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
-  font-size: 14px;
-  color: #cacdd2;
+  font-size: 18px;
+  color:#1A132F;
 }
 
 .socials {
