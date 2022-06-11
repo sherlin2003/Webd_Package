@@ -35,12 +35,13 @@ include("index.php");
                     <li> <a href="#bangles" class="items"> BANGLES</a> </li>
                     <li> <a href="#earing" class="items"> EARINGS </a> </li>
                     <li> <a href="#necklace" class="items"> NECKLACE </a> </li>
+					<li> <a href="#customize" class="items"> CUSTOMIZE </a> </li>
                 </ul>
             </nav>
-            <a href="#">
-                <img src="pictures/love.png"
-                    style="position:absolute; top :110px; right:150px; width:3%; filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); ">
-            </a>
+            <!-- <a href="#"> -->
+                <!-- <img src="pictures/love.png" -->
+                    <!-- style="position:absolute; top :110px; right:150px; width:3%; filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); "> -->
+            <!-- </a> -->
             <a href="#">
                 <img src="pictures/CAART.png"
                     style="position:absolute; top :110px; right:50px; width:3%; filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));">
