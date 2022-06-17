@@ -231,7 +231,7 @@ li {
   float: left;
   color: #000;
   font-size: 40px;
-  font-family: 'technical';
+  font-family: 'sans-serif';
 }
 .newarrivals {
   background-color: #FFEEEE;
@@ -241,14 +241,10 @@ li {
   filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
 }
 
-.container-1 {
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
-}
 
 .container1 {
   background-color: #FFEEEE;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
   display: flex;
 }
 
@@ -264,27 +260,15 @@ li {
 }
 
 .images {
-  width: 84%;
+  width: 90%;
   height: 70%;
   margin-left: 15px;
   margin-top: 20px;
   border-radius: 5px;
 }
 
-.enlarge {
-  width: 300px;
-  height: 500px;
-  overflow: hidden;
-  margin: 0 auto;
-}
-
-.enlarge img {
-  width: 90%;
-  transition: 0.5s all ease-in-out;
-}
-
-.enlarge:hover img {
-  transform: scale(1.5);
+.elem:hover {
+  transform: scale(1.1);
 }
 
 .addtocart {
@@ -302,23 +286,11 @@ li {
 p {
   text-align: center;
   color: white;
-  padding-top: 5px;
 }
 
 .heading {
   color: black;
   font-size: 30px;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  background: #fcfcfc;
-  font-family: sans-serif;
 }
 
 footer {
@@ -329,7 +301,6 @@ footer {
   background: #111;
   height: auto;
   width: 100vw;
-
   padding-top: 40px;
   color: #fff;
 }
@@ -353,8 +324,8 @@ footer {
   max-width: 500px;
   margin: 10px auto;
   line-height: 28px;
-  font-size: 18px;
-  color:#1A132F;
+  font-size: 14px;
+  color: #cacdd2;
 }
 
 .socials {
@@ -371,10 +342,9 @@ footer {
 
 .socials a {
   text-decoration: none;
-  color: #fff;
-  border: 1.1px solid white;
+  color: black;
+  border: 1.1px solid black;
   padding: 5px;
-
   border-radius: 50%;
 
 }
@@ -382,8 +352,6 @@ footer {
 .socials a i {
   font-size: 1.1rem;
   width: 20px;
-
-
   transition: color .4s ease;
 
 }
