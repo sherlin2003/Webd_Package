@@ -10,6 +10,7 @@ include("index.php");
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 
 <body>
     <div class="body">
@@ -18,9 +19,9 @@ include("index.php");
             <img src="pictures/gmail.png" width="2%"> <span style="padding:0px 5px 0px 5px ;">
                 Kavithalaya_2003@gmail.com </span>
             <span style="margin:100px;"> <b> <i> Free Shipping on Orders Over Rs2000 and Free Returns </i> </b></span>
-            <span class="login"> <a href="login.html" style="color:black;"> Login </a> </span>
+            <span class="login"> <a href="login.php" style="color:black;"> Login </a> </span>
             <span class="horizontal"> </span>
-            <span class="signup"> <a href="signup.html" style="color:black;"> Sign up </a> </span>
+            <span class="signup"> <a href="signup.php" style="color:black;"> Sign up </a> </span>
         </div>
         <div class="top1">
             <img src="pictures/logo1.png" class="logo">
@@ -35,13 +36,12 @@ include("index.php");
                     <li> <a href="#bangles" class="items"> BANGLES</a> </li>
                     <li> <a href="#earing" class="items"> EARINGS </a> </li>
                     <li> <a href="#necklace" class="items"> NECKLACE </a> </li>
-					<li> <a href="#customize" class="items"> CUSTOMIZE </a> </li>
                 </ul>
             </nav>
-            <!-- <a href="#"> -->
-                <!-- <img src="pictures/love.png" -->
-                    <!-- style="position:absolute; top :110px; right:150px; width:3%; filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); "> -->
-            <!-- </a> -->
+            <a href="#">
+                <img src="pictures/love.png"
+                    style="position:absolute; top :110px; right:150px; width:3%; filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5)); ">
+            </a>
             <a href="#">
                 <img src="pictures/CAART.png"
                     style="position:absolute; top :110px; right:50px; width:3%; filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));">
@@ -91,9 +91,9 @@ include("index.php");
             </div>
             <div class="Discription">
                 <p class="inspired1">
-                    Whether you’re treating yourself or celebrating something special,
+                    Whether you're treating yourself or celebrating something special,
                     <br>
-                     our inspiring selection of high-quality designs means you’ll 
+                     our inspiring selection of high-quality designs means you'll 
                      <br>always find just the right thing.</p>
             </div>
         </div>
@@ -102,366 +102,325 @@ include("index.php");
             <p class="heading"> NEW ARRIVALS </p>
         </a>
         <div class="newarrivals">
-            <div class="enlarge">
-                <div class="outerbox1">
-                    <img src="pictures/braclets.png" class="images">
-                    <p> 3 in 1 BRACELET <br> 500Rs </p>
-                    <div class="addtocart"> ADD TO CART </div>
-                </div>
-            </div>
-            <div class="enlarge">
-                <div class="outerbox1">
+            <div class="outerbox1">
+                <div class="elem">
+                <img src="pictures/braclets.png" class="images"> </div>
+                <p> 3 in 1 BRACELET <br> 500Rs </p>
+                <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+           </div>
+            <div class="outerbox1">
+                <div class="elem">
                     <img src="pictures/earcuff.png" class="images">
-                    <p> STAR EAR CUFF <br> 250Rs </p>
-                    <div class="addtocart"> ADD TO CART </div>
                 </div>
+                <p> STAR EAR CUFF <br> 250Rs </p>
+                <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
             </div>
-            <div class="enlarge">
-                <div class="outerbox1">
+            <div class="outerbox1">
+                <div class="elem">
                     <img src="pictures/earing-2.png" class="images">
-                    <p> WHITE METAL EARING <br> 300Rs </p>
-                    <div class="addtocart"> ADD TO CART </div>
                 </div>
-            </div>
-            <div class="enlarge">
-                <div class="outerbox1">
+                <p> WHITE METAL EARING <br> 300Rs </p>
+                <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+             </div>
+            <div class="outerbox1">
+                <div class="elem">
                     <img src="pictures/chain1.png" class="images">
-                    <p> RING NECKLACE <br> 499Rs </p>
-                    <div class="addtocart"> ADD TO CART </div>
                 </div>
+                <p> RING NECKLACE <br> 499Rs </p>
+                <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
             </div>
-            <div class="enlarge">
-                <div class="outerbox1">
+            <div class="outerbox1">
+                <div class="elem">
                     <img src="pictures/ring.png" class="images">
-                    <p> BRIGHT LIFE RING <br> 350Rs </p>
-                    <div class="addtocart"> ADD TO CART </div>
                 </div>
+                <p> BRIGHT LIFE RING <br> 350Rs </p>
+                <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
             </div>
         </div>
 
         <a name="rings">
             <p class="heading"> RINGS </p>
         </a>
-
-        <div class="container-1">
-            <div class="container1">
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/ring1.png" class="images">
-                        <p> HALF CUT ADJUSTABLE RING <br> 1,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/ring-1.png" class="images">
-                        <p> STAR RING<br> 2,650Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/ring2.png" class="images">
-                        <p> CLUFF RING <br> 1,050Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/pengunie.png" class="images">
-                        <p> PENGUIN RING <br> 599Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/ring4.png" class="images">
-                        <p> BRIGHT LIFE RING<br> 2,999Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
+        </div>
+        <div class="container1">
+            <div class="outerbox1">
+                <div class="elem"> <img src="pictures/ring1.png" class="images"> </div>
+                    <p> HALF CUT ADJUSTABLE RING <br> 1,500Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
             </div>
-            <div class="container1">
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/ring8.png" class="images">
-                        <p> CURLY BRACE RING <br> 1,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/BUBBLY.png" class="images">
-                        <p> BUBBLY RING <br> 1,650Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/LEAF.png" class="images">
-                        <p> LEAF PLATTED RING <br> 1,050Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/ring3.jpg" class="images">
-                        <p> HEART-BEAT RING <br> 599Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/RINSIN.png" class="images">
+            <div class="outerbox1">
+                <div class="elem">  <img src="pictures/ring-1.png" class="images"> </div>
+                    <p> STAR RING<br> 2,650Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+            </div>
+           <div class="outerbox1">
+                <div class="elem">  <img src="pictures/ring2.png" class="images"> </div>
+                    <p> CLUFF RING <br> 1,050Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+            </div>
+            <div class="outerbox1">
+                <div class="elem"> <img src="pictures/pengunie.png" class="images"> </div>
+                    <p> PENGUIN RING <br> 599Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+            </div>
+            <div class="outerbox1">
+                <div class="elem"> <img src="pictures/ring4.png" class="images"> </div>
+                    <p> BRIGHT LIFE RING<br> 2,999Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+            </div>
+        </div>
+
+        <div class="container1">
+            <div class="outerbox1">
+                <div class="elem"> <img src="pictures/ring8.png" class="images"> </div>
+                    <p> CURLY BRACE RING <br> 1,000Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+            </div>
+            <div class="outerbox1">
+                <div class="elem"> <img src="pictures/BUBBLY.png" class="images"> </div>                       
+                    <p> BUBBLY RING <br> 1,650Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+            </div>
+            <div class="outerbox1">
+                <div class="elem"> <img src="pictures/LEAF.png" class="images"> </div> 
+                    <p> LEAF PLATTED RING <br> 1,050Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+            </div>
+            <div class="outerbox1">
+                <div class="elem"> <img src="pictures/ring3.jpg" class="images"> </div>   
+                    <p> HEART-BEAT RING <br> 599Rs </p>
+                    <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+            </div>
+            <div class="outerbox1">
+                <div class="elem"> <img src="pictures/RINSIN.png" class="images"> </div>   
                         <p>RESIN RING <br> 1,450Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
             </div>
         </div>
 
         <a name="bangles">
             <p class="heading"> BANGLES </p>
         </a>
-        <div class="container-1">
             <div class="container1">
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/AFRICAN.png" class="images">
+                    <div class="outerbox1">     <div class="elem"> <img src="pictures/AFRICAN.png" class="images"> </div> 
                         <p> AFRICAN BASS BANGLE <br> 2,999Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/JADE.png" class="images">
+                    <div class="outerbox1"> 
+                        <div class="elem"> <img src="pictures/JADE.png" class="images"> </div> 
                         <p>JADE BANGLE <br> 2,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/HANDCUFF.png" class="images">
+                        <div class="elem"> <img src="pictures/HANDCUFF.png" class="images"> </div>                   
                         <p>HAND CUFF BANGLE <br> 3,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/PINK.png" class="images">
+                        <div class="elem"> <img src="pictures/PINK.png" class="images"> </div> 
                         <p> PINK PLATTED BANGLE <br> 3,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/PEARL.png" class="images">
+                           <div class="elem"> <img src="pictures/PEARL.png" class="images"> </div> 
                         <p> PEARL BANGLE <br> 2,450Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
             </div>
             <div class="container1">
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/MASIYAORANGE.png" class="images">
+                        <div class="elem"> <img src="pictures/MASIYAORANGE.png"  class="images"> </div> 
                         <p> MANSIYA ORANGE BANGLE<br> 5,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/bangle4.png" class="images">
+                        <div class="elem"> <img src="pictures/bangle4.png"  class="images"> </div> 
                         <p> RUBY GREEN PLATED BANGLE <br> 4,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/bangle3.png" class="images">
+                        <div class="elem"> <img src="pictures/bangle3.png"  class="images"> </div> 
                         <p>TWIN BANGLE <br> 2,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/EYEDROP.png" class="images">
+                        <div class="elem"> <img src="pictures/EYEDROP.png"  class="images"> </div> 
                         <p> EYE DROP <br> 2,999Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/bangle5.png" class="images">
+                        <div class="elem"> <img src="pictures/bangle5.png"  class="images"> </div> 
                         <p> GARNET BANGLE <br> 3,999Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
             </div>
-        </div>
 
         <a name="earing">
             <p class="heading"> EARINGS </p>
         </a>
-
-        <div class="container-1">
             <div class="container1">
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/hotandblod.png" class="images">
+                    <div class="outerbox1"> 
+                        <div class="elem"> <img src="pictures/hotandblod.png"  class="images"> </div> 
+
                         <p> HOT AND BOLD EARING <br> 2,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/CHIMES.png" class="images">
+                        <div class="elem"> <img src="pictures/CHIMES.png"  class="images"> </div> 
                         <p> YELLOW CHIMES <br> 2,780Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/RAINBOW.png" class="images">
+                        <div class="elem"> <img src="pictures/RAINBOW.png"  class="images"> </div> 
                         <p> RAINBOW EARING <br> 2,250Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/BELLA.png" class="images">
+                        <div class="elem"> <img src="pictures/BELLA.png"  class="images"> </div> 
                         <p> YOU BELLA EARING <br> 3,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/butterfly.png" class="images">
+                        <div class="elem"> <img src="pictures/butterfly.png"  class="images"> </div> 
                         <p> BUTTERFLY EARCUFF <br> 4,999Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
             </div>
             <div class="container1">
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/CRUNCHY.png" class="images">
+                        <div class="elem"> <img src="pictures/CRUNCHY.png"  class="images"> </div> 
                         <p> CRUNCHY EARING <br> 2,400Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
+              
                     <div class="outerbox1">
-                        <img src="pictures/ZAVERI.png" class="images">
-                        <p> ZAVERI PEARL <br> 2,780Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/earing5.png" class="images">
-                        <p> ALL PINK EARING <br> 4,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/JUMKA.png" class="images">
-                        <p> PEARL JUMKA <br> 2,999Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/earing3.png" class="images">
-                        <p> MERRY EARING <br> 2,974Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+                        <div class="elem"> <img src="pictures/ZAVERI.png"  class="images"> </div> 
 
+                        <p> ZAVERI PEARL <br> 2,780Rs </p>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+                    </div>
+                    <div class="outerbox1">
+                        <div class="elem"> <img src="pictures/earing5.png"  class="images"> </div> 
+                        <p> ALL PINK EARING <br> 4,000Rs </p>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+                    </div>
+                    <div class="outerbox1">
+                        <div class="elem"> <img src="pictures/JUMKA.png"  class="images"> </div> 
+                        <p> PEARL JUMKA <br> 2,999Rs </p>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+                    </div>
+                    <div class="outerbox1">
+                        <div class="elem"> <img src="pictures/earing3.png"  class="images"> </div> 
+                        <p> MERRY EARING <br> 2,974Rs </p>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
+                    </div>
+                </div>
         <a name="necklace">
             <p class="heading"> NECKLACE </p>
         </a>
+            <div class="container1">
+                    <div class="outerbox1"> 
+                        <div class="elem"> <img src="pictures/choker.png"  class="images"> </div> 
 
-        <div class="container-1">
-            <div class="container1">
-                <div class="enlarge">
-                    <div class="outerbox1">
-                        <img src="pictures/choker.png" class="images">
                         <p> CHOKER -KUNDAN<br> 6,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
+
                     <div class="outerbox1">
-                        <img src="pictures/pendant.png" class="images">
+                        <div class="elem"> <img src="pictures/pendant.png"  class="images"> </div> 
+
                         <p> PENDANT <br> 5,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/RED.png" class="images">
+                        <div class="elem"> <img src="pictures/RED.png"  class="images"> </div> 
+
                         <p> GLORIOUS RED <br> 7,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/gold.png" class="images">
+                        <div class="elem"> <img src="pictures/gold.png"  class="images"> </div> 
+
                         <p> DAZZING CHOKER <br> 13,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/TRIBAL.png" class="images">
+                        <div class="elem"> <img src="pictures/TRIBAL.png"  class="images"> </div> 
                         <p> TRIBAL NECKLACE <br> 9,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
                 </div>
-            </div>
             <div class="container1">
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/god.png" class="images">
+                        <div class="elem"> <img src="pictures/god.png"  class="images"> </div> 
+
                         <p>SPARGZ <br> 10,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/smile.png" class="images">
+                        <div class="elem"> <img src="pictures/smile.png"  class="images"> </div> 
+
                         <p> SMILE BRIGHT NECKLACE<br> 6,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/neklace2.png" class="images">
+                        <div class="elem"> <img src="pictures/neklace2.png"  class="images"> </div> 
+
                         <p> ALL PINK - FULL SET <br> 7,500Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
+                
                     <div class="outerbox1">
-                        <img src="pictures/neklace1.png" class="images">
+                        <div class="elem"> <img src="pictures/neklace1.png"  class="images"> </div> 
                         <p> PERIDOT GREEN CHOKER <br> 13,050Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
-                </div>
-                <div class="enlarge">
                     <div class="outerbox1">
-                        <img src="pictures/neklace5.png" class="images">
+                        <div class="elem"> <img src="pictures/neklace5.png"  class="images"> </div> 
+
                         <p> MANGA ORANGE <br> 8,000Rs </p>
-                        <div class="addtocart"> ADD TO CART </div>
+                        <button type="button" class="btn btn-light btn-rounded addtocart">ADD TO CART</button>
                     </div>
                 </div>
-            </div>
-        </div>
+
+		<div class="categories">
+            <p class="inspired"> DESIGN YOUR OWN JEWELLRY!! </p><br>
+				<img src="pictures/pay.png" class="images" width="500px">
+		</div>
+<input type="file" id="myFile" multiple size="50" onchange="myFunction()">
+<p id="demo"></p>
+<script>
+function myFunction(){
+	  var x = document.getElementById("myFile");
+		  var txt = "";
+				  if ('files' in x) {
+					if (x.files.length == 0) {
+					  txt = "Select one or more files.";
+					} else {
+					  for (var i = 0; i < x.files.length; i++) {
+						txt += "<br><strong>" + (i+1) + ". file</strong><br>";
+						var file = x.files[i];
+						if ('name' in file) {
+						  txt += "name: " + file.name + "<br>";
+						}
+						if ('size' in file) {
+						  txt += "size: " + file.size + " bytes <br>";
+						}
+					  }
+					}
+				  } 
+				  else {
+					if (x.value == "") {
+					  txt += "Select one or more files.";
+					} else {
+					  txt += "The files property is not supported by your browser!";
+					  txt  += "<br>The path of the selected file: " + x.value; // If the browser does not support the files property, it will return the path of the selected file instead. 
+					}
+				  }
+				  document.getElementById("demo").innerHTML = txt;
+		}
+
+</script>
 
         <div class="footer-content">
             <h3>KAVITHALAYA</h3>
