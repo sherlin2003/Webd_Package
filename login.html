@@ -97,7 +97,7 @@ a{
 <body>
     <div class="container">
         <div class="login">
-            <form>
+            <form name="f1" action = "main.html" onsubmit = "return validation()" method = "POST">  
                 <h1>Login</h1>
                 <hr>
                 <p> Lets Explore Together the world of Jewelleries..</p>
@@ -105,7 +105,7 @@ a{
                 <input type="email" size="60" maxLength="64" required  placeholder="Eg: Kavithalaya_2013@gmail.com" pattern=".+@gmail.com" title="Please provide valid mail address"> 
                 <label>Password</label>
                 <input type="password" maxlength="10" required placeholder="Enter Your Password">
-                <button> <a href="main.html" class="submit"> Submit </a> </button>
+                <button>  Submit </button>
                 <p>
                     <a href="signup.html">Forgot Password?</a>
                 </p>
