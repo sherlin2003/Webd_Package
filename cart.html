@@ -1,0 +1,128 @@
+<html>
+    <head>
+        <style>
+        .image
+        {
+            width: 100px;
+            height: 100px; 
+        }
+        .cart
+        {
+            position: fixed;
+            top: 0;
+            right:0;
+            width: 360px;
+            min-height: 100vh;
+            padding: 20px;
+            background:var(--bg-color);
+            box-shadow: -2px 0 4px hsl(0 4% 5% / 10%);
+            transition:0.3s;
+        }
+        .cart-title
+        {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: 600;
+            margin-top: 2rem;
+        }
+        .cart-box
+        {
+            display:grid;
+            grid-template-columns:32% 50% 18%;
+            align-items:center;
+            gap:1rem;
+            margin-top: 1rem;
+        }
+        .detail-box
+        {
+            display:grid;
+            row-gap:0.5rem;
+        }
+        .cart-product-title
+        {
+            font-size: 1rem;
+            text-transform: uppercase;
+        }
+        .cart-price
+        {
+            font-weight: 500;
+        }
+        .cart-quantity
+        {
+            border:11px solid var(--text-color);
+            outline-color:var(--main-color);
+            width: 2.4rem;
+            text-align: center;
+            font-size: 1rem;
+        }
+        .cart-remove
+        {
+            font-size: 24px;
+            color: var(--main-color);
+            cursor: pointer;
+        }
+        .total
+        {
+            display:flex;
+            justify-content: flex-end;
+            margin-top:1.5rem;
+            border-top: 1px solid var(--text-color);
+        }
+        .total-title
+        {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        .total-price
+        {
+          margin-left: 0.5rem;  
+        }
+        .btn-buy
+        {
+            display: flex;
+            margin:1.5rem auto 0 auto;
+            padding: 12px 20px;
+            border:none;
+            background:var(--main-color);
+            color:var(--bg-color);
+            font-size:1rem;
+            font-weight: 500;
+            cursor:pointer;
+        }
+        .btn-buy:hover
+        {
+            background:var(--text-color);
+        }
+        /* #close-cart{
+            position: absolute;
+            top:1rem;
+            right: 0.8rem;
+            font-size: 2rem;
+            cursor: pointer;
+        } */
+        </style>
+    </head>
+    <body>
+        <div class="cart">
+            <h2 class="cart-title"> Your Cart </h2>
+            <div class ="cart-content">
+                <div class="cart-box">
+                    <img src="pictures/braclets.png" class="image">
+                    <div class="detail-box">
+                        <div class="cart-product-title"> Bracelet </div>
+                        <div class="cart-price">Rs500</div>
+                        <input type="number" value="1" class="cart-quantity">
+                    </div>
+                    <img src="https://img.icons8.com/glyph-neue/64/undefined/trash.png" width="60%" class="cart-remove">
+                </div>
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">Rs 0</div>
+            </div>
+            <button type="button" class="btn-buy">BUY NOW</button>
+            <!-- <img src="https://img.icons8.com/ios-filled/50/undefined/x.png" width="5%"  id="close-cart"> -->
+        </div>
+        <script src="main.js"> </script>
+    </body>
+</html>
