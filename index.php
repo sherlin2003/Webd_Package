@@ -1,14 +1,14 @@
 <?php
-    // $server = "localhost";
-    // $username = "admin";
-    // $password = "admin";
+    $server = "localhost";
+    $username = "admin";
+    $password = "admin";
     $conn = new mysqli("localhost", "admin","admin");
-    if($conn->connect_error) {
-        die("Connection failed: ".$conn->connect_error);
-    }
-    else {
-        echo "Connection success! ";
-    }
+    // if($conn->connect_error) {
+    //     die("Connection failed: ".$conn->connect_error);
+    // }
+    // else {
+    //     echo "Connection success! ";
+    // }
 	
 // CREATE DATABASE 
 // $sql = "CREATE DATABASE webdpackage";
@@ -79,7 +79,7 @@
 // $sql = "use webdpackage; insert into BANGLES values(1, 'AFRICAN BASS BANGLE', 'pictures/AFRICAN.png ', 'BANGLES', 2999.00)";
 // $sql = "use webdpackage; insert into BANGLES values(2, 'JADE BANGLE  ', 'pictures/JADE.png ', 'BANGLES', 2500.00)";
 // $sql = "use webdpackage; insert into BANGLES values(3, 'HAND CUFF BANGLE', 'pictures/HANDCUFF.png ', 'BANGLES', 3500.00)";
-// $sql = "use webdpackage; insert into BANGLES values(4, 'PINK PLATTED BANGLE', '"pictures/PINK.png  ', 'BANGLES', 2450.00)";
+//$sql = "use webdpackage; insert into BANGLES values(4, 'PINK PLATTED BANGLE', 'pictures/PINK.png  ', 'BANGLES', 2450.00)";
 // $sql = "use webdpackage; insert into BANGLES values(5, 'PEARL BANGLE ',  'pictures/PEARL.png   ', 'BANGLES', 2999.00)";
 // $sql = "use webdpackage; insert into BANGLES values(6, 'MANSIYA ORANGE BANGLE ', 'pictures/MANSIYAORANGE.png', 'BANGLES', 5000.00)";
 // $sql = "use webdpackage; insert into BANGLES values(7, 'RUBY GREEN PLATED BANGLE', 'pictures/bangle4.png  ', 'BANGLES', 4500.00)";
@@ -122,31 +122,35 @@
 // 							  description varchar(100),
 // 					          price float(10, 2));";
 
- 
 // table insertion
 // $sql = "use webdpackage; insert into NECKLACE values(1, 'CHOKER -KUNDAN       ', 'pictures/choker.png  ', 'NECKLACE', 6500.00)";
 // $sql = "use webdpackage; insert into NECKLACE values(2, 'PENDANT              ', 'pictures/pendant.png ', 'NECKLACE', 5000.00)";
 // $sql = "use webdpackage; insert into NECKLACE values(3, 'GLORIOUS RED         ', 'pictures/RED.png     ', 'NECKLACE', 7500.00)";
-// $sql = "use webdpackage; insert into NECKLACE values(4, 'DAZZLING CHOKER      ', 'pictures/gold.png    ', 'NECKLACE', 13000.00";
-// $sql = "use webdpackage; insert into NECKLACE values(5, 'TRIBAL NECKLACE      ', 'pictures/TRIBAL.png  ', 'NECKLACE', 9500.00)";
-// $sql = "use webdpackage; insert into NECKLACE values(6, 'SPARGZ               ', 'pictures/god.png     ', 'NECKLACE', 10000.00";
+// $sql = "use webdpackage; insert into NECKLACE values(4, 'DAZZLING CHOKER      ', 'pictures/gold.png    ', 'NECKLACE', 13000.00)";
+// $sql = "use webdpackage; insert into NECKLACE values(5, 'TRIBAL NECKLACE      ', 'pictures/TRIBAL.png  ', 'NECKLACE', 9500.00) ";
+// $sql = "use webdpackage; insert into NECKLACE values(6, 'SPARGZ               ', 'pictures/god.png     ', 'NECKLACE', 10000.00)";
 // $sql = "use webdpackage; insert into NECKLACE values(7, 'SMILE BRIGHT NECKLACE', 'pictures/smile.png   ', 'NECKLACE', 6000.00)";
 // $sql = "use webdpackage; insert into NECKLACE values(8, 'ALL-PINK FULL SET    ', 'pictures/neklace2.png', 'NECKLACE', 7500.00)";
-// $sql = "use webdpackage; insert into NECKLACE values(9, 'PERIDOT GREEN CHOKER ', 'pictures/neklace1.png', 'NECKLACE', 13050.00";
+// $sql = "use webdpackage; insert into NECKLACE values(9, 'PERIDOT GREEN CHOKER ', 'pictures/neklace1.png', 'NECKLACE', 13050.00)";
 // $sql = "use webdpackage; insert into NECKLACE values(10,'MANGA ORANGE         ', 'pictures/neklace5.png', 'NECKLACE', 8000.00)";
-// $sql = "use webdpackage; insert into NECKLACE values(4, 'DAZZLING CHOKER      ', 'pictures/gold.png    ', 'NECKLACE', 13000.00";
-//if($conn->multi_query($sql) === TRUE) {
-//      echo "Value inserted successfully";
-//}
+// if($conn->multi_query($sql) === TRUE) {
+//       echo "Value inserted successfully";
+//  }
 
-// //table creation
+// $sql = "use webdpackage; create table users ( id int auto_increment primary key ,
+//     Firstname varchar(50),
+//     Lastname varchar(50),
+//     email varchar(50),
+//     password varchar(50) NOT NULL,
+//     confirmpassword  varchar(50));";
 
-// $sql = 'create table CustomerDetails(
-//     id int auto_increment primary key,
-//     First_name varchar(30),
-//  Last_name varchar(30),
-//     email varchar(40),
-//  password varchar(40),
-//  confirm_password varchar(40),
-//     ;';
- ?>
+// if($conn->multi_query($sql) === TRUE) {
+//       echo "Table created successfully";
+// }
+// else {
+//      echo $conn->error;
+// }
+
+
+
+?>
